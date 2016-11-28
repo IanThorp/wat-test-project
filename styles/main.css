@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 .navbar-inverse {
   background-color: #222;
 }
@@ -7,6 +9,36 @@ header {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 540px) {
+  #question-text {
+    margin-top: 60px;
+  }
+}
+
+/*STATS MODULE*/
+
+#stats-container {
+  position: absolute;
+  margin: -10px 0 0 15px;
+}
+
+#correct-guesses {
+  color: green;
+  font-weight: bold;
+}
+
+#incorrect-guesses {
+  color: red;
+  font-weight: bold;
+}
+
+#average-guesses {
+  color: black;
+  font-weight: bold;
+}
+
+/*GAME MODULE*/
 
 #question-container {
   display: flex;
@@ -74,8 +106,3 @@ header {
   background: rgba(191,63,63,0.5);
 }
 
-#stats-container {
-  border: 1px solid black;
-  position: absolute;
-  margin: -10px 0 0 15px;
-}
