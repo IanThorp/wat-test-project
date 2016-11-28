@@ -1,3 +1,20 @@
+# Results
+
+I created this app from a boiler plate for Willow Tree
+
+I implemented the following features: 
+  *Stat Tracking
+  *Reverse Mode
+  *keyboard shortcuts (keys 1-5)
+  *Mat(t) modes ( works in both default and reverse modes)
+  *Clean up API data coming in (Some had trailing characters that were unnecessary)
+  
+More features to implement if I had more time
+  *Test all the things ( Mocha, Chai).
+  *Keep track of which names you got wrong.
+  *cycle back through only names you got wrong.
+
+
 # The Namegame
 
 Leading scientists have proven, via science, that learning your coworkers names while starting a new job is useful. Your test project is to make it happen! We have a simple version hosted at [namegame.willowtreemobile.com](http://namegame.willowtreemobile.com/) which you can test. The api is located at [http://api.namegame.willowtreemobile.com/](http://api.namegame.willowtreemobile.com/).
